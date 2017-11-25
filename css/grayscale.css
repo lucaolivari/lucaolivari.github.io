@@ -51,7 +51,7 @@ a {
   margin-bottom: 0;
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-  background-color: 00171f; }
+  background-color: #00171f; }
   #mainNav .navbar-toggler {
     font-size: 14px;
     padding: 11px;
@@ -86,7 +86,7 @@ a {
         padding-top: 10px;
         padding-bottom: 10px;
         border-bottom: 1px solid rgba(255, 255, 255, 0.3);
-        background: 00171f; }
+        background: #00171f; }
       #mainNav .nav-link.active {
         outline: none;
         background-color: rgba(255, 255, 255, 0.3); }
@@ -101,7 +101,7 @@ a {
   text-align: center;
   color: white;
   background: url("../img/picography-city-fog.jpg") no-repeat bottom center scroll;
-  background-color: 00171f;
+  background-color: #00171f;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -147,7 +147,7 @@ a {
 .download-section {
   color: white;
   background: url("../img/picography-city-cafe.jpg") no-repeat center center scroll;
-  background-color: 00171f;
+  background-color: #00171f;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -174,11 +174,11 @@ a {
   border-radius: 0; }
 
 .btn-default {
-  color: #42DCA3;
+  color: #00a8e8;
   border: 1px solid #00a8e8;
   background-color: transparent; }
   .btn-default:focus, .btn-default:hover {
-    color: 00171f;
+    color: #00171f;
     border: 1px solid #00a8e8;
     outline: none;
     background-color: #00a8e8; }
