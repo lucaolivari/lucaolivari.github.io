@@ -10,12 +10,11 @@ body {
   width: auto;
   height: auto;
   min-height: 100%;
-  font-family: "Montserrat",sans-serif;
+  font-family: Avenir, Arial;
   line-height: 1.42857;
   font-size: 17px;
   background-color: rgba(0,0,0,1);
   color: #FFF;
-  font: 100%/1.5  Avenir, Arial;
   word-wrap: normal;
 }
 
