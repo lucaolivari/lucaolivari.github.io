@@ -30,6 +30,11 @@ section {
   position: relative;
 }
 
+p {
+  color: #FFF;
+  text-decoration: none;
+}
+
 .bg-image {
   position: fixed;
   top: 0;
