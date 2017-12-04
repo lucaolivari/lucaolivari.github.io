@@ -17,6 +17,9 @@ body {
   background-color: rgba(0,0,0,1);
   color: #FFF;
   word-wrap: normal;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 a,a:visited,a:active,a:hover {
@@ -206,6 +209,8 @@ h1 {
 .user-signup__submit:hover {
   background-color: #003459;
   color: #FFF;
+  transform: translateY(-1px);
+  box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
 }
 
 @media all and (min-width:481px) {
