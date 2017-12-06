@@ -282,6 +282,7 @@ header .hamburger.active .left{
 
 /*  billboard  */
 .billboard{
+    width: 100%;
     background: url('../img/background.jpg') no-repeat;
     background-size: cover;
     background-position: cover;
