@@ -791,7 +791,6 @@ footer .copyrights a{
     font-family: "opensans-semibold", arial;
     font-weight: bold;
     text-decoration: none;
-
     transition:all .2s linear;
     -webkit-transition:all .2s linear;
     -moz-transition:all .2s linear;
@@ -827,7 +826,6 @@ footer .social ul li a{
     font-family: "opensans-regular", arial;
     font-size: 14px;
     text-decoration: none;
-
     transition:all .2s linear;
     -webkit-transition:all .2s linear;
     -moz-transition:all .2s linear;
