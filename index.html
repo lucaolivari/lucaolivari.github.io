@@ -14,8 +14,41 @@
     <link type="text/css" rel="stylesheet" href="./res/styles.css">
     <link href="./res/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Avenir:300,400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+    <script type="text/javascript" src="res/js/jquery.js"></script>
+    <script type="text/javascript" src="res/js/easing.js"></script>
+    <script type="text/javascript" src="res/js/flexslider.js"></script>
+    <script type="text/javascript" src="res/js/scrollTo.js"></script>
+    <script type="text/javascript" src="res/js/main.js"></script>
+
+
   </head>
   <body>
+
+    <!--  fixed header  -->
+    <header class="header_fixed">
+      <div class="wrapper clearfix">
+        <a href="#"><img src="res/img/logo_white.png" alt="" title="" class="header_logo"/></a>
+
+        <nav class="clearfix">
+          <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <a href="#" class="hamburger fixed_nav" id="sitcky_menu">
+            <span class="top"></span>
+            <span class="middle left"></span>
+            <span class="middle right"></span>
+            <span class="bottom"></span>
+          </a>
+        </nav>
+      </div>
+    </header><!--  end fixed header  -->
+
+
     <div class="bg-image"></div>
     <div>
       <div id="loading" class="loading-state" style="display: none;"></div>
@@ -30,7 +63,7 @@
                     <p style="text-align: center;">
                       <img src="/res/spacer.png" alt="" class="spacer insert--image wrap-off-align-center"><br>
                     </p>
-                    <p style="text-align: center;">An advisory firm on a mission to deliver unfair advantage to entrepreneurs who believe in the beauty of their dreams. We enjoy working with <a href="https://twitter.com/lucaolivari/lists/portfolio/members">companies</a> on a journey to make history.</p>
+                    <p style="text-align: center;">An advisory firm on a mission to deliver unfair advantage to entrepreneurs who believe in the beauty of their dreams. We work with <a href="https://twitter.com/lucaolivari/lists/portfolio/members">companies</a> who make history.</p>
                     <p style="text-align: center;">
                       <a style="text-decoration: none;" href="http://twitter.com/lucaolivari">
                         <i class="fa fa-twitter fa-lg"></i>
@@ -54,7 +87,7 @@
                     </p>
                     <p style="text-align: center;">
                       <img src="/res/clean-hr.png" alt="" class="clean-hr insert--image wrap-off-align-center">
-                      <span style="font-size: 14px;">Get in touch to get market and growth insights or invest in open innovation. </span>
+                      <span style="font-size: 14px;">Get market and growth insights, M&amp;A tips or open innovation advices. </span>
                     </p>
                   </div>
                 </div>
@@ -63,7 +96,7 @@
                     <div class="mt-table--full">
                       <div class="mt-td--centered-vertical user-signup__col-1">
                         <div class="user-signup__form-group m-lg-v form-group col-sm-12">
-                          <input type="email" name="EMAIL" class="form-control form-control__input user-signup__email" pattern="/^[a-zA-Z0-9+-_]+(\.[_a-zA-Z0-9+]+)*@[a-zA-Z0-9+-_]+(\.[a-zA-Z0-9+-_]+)*(\.[a-zA-Z]+)$/" placeholder="Enter your email to get in touch." aria-required="true" required="required">
+                          <input type="email" name="EMAIL" class="form-control form-control__input user-signup__email" pattern="/^[a-zA-Z0-9+-_]+(\.[_a-zA-Z0-9+]+)*@[a-zA-Z0-9+-_]+(\.[a-zA-Z0-9+-_]+)*(\.[a-zA-Z]+)$/" placeholder="Enter your email to get in touch. No spam, ever." aria-required="true" required="required">
                         </div>
                       </div>
                       <div class="mt-td--centered-vertical user-signup__col-2">
