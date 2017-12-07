@@ -1,6 +1,12 @@
 /*@import  "//fonts.googleapis.com/css?family=Avenir";
 @import  "//fonts.googleapis.com/css?family=Montserrat";
 */
+@font-face {
+    font-family: 'handwriting';
+    src: url('../fonts/opensans-bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 
 html {
   height: 100%;
@@ -187,6 +193,8 @@ p {
 h1 {
   font-size: 40px;
   font-weight: 300;
+  font-family: "handwriting", arial;
+
 }
 
 .form-control__input {
