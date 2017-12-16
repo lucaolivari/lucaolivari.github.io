@@ -10,9 +10,11 @@
     <meta name="og:description" content="A boutique advisory firm on a mission to deliver unfair advantage to entrepreneurs who believe in the beauty of their dreams." property="og:description">
     <meta name="og:image" content="" property="og:image">
     <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="./res/reset.css"> <!-- CSS reset -->
     <link type="text/css" rel="stylesheet" href="./res/bootstrap.min.css">
     <link type="text/css" rel="stylesheet" href="./res/styles.css">
     <link type="text/css" rel="stylesheet" href="./res/stylesheet.css">
+    <script src="js/modernizr.js"></script> <!-- Modernizr -->
     <link href="./res/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
     <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/2c5c841cc758fa937bd7c78cb/04b92f62bf7492610b714a07b.js");</script>
@@ -20,11 +22,41 @@
   </head>
   <body>
 
-    <div class="bg-image"></div>
+    <nav id="cd-vertical-nav">
+      <ul>
+        <li>
+          <a href="#section1" data-number="1">
+            <span class="cd-dot"></span>
+            <span class="cd-label">Intro</span>
+          </a>
+        </li>
+        <li>
+          <a href="#section2" data-number="2">
+            <span class="cd-dot"></span>
+            <span class="cd-label">Services</span>
+          </a>
+        </li>
+        <li>
+          <a href="#section3" data-number="3">
+            <span class="cd-dot"></span>
+            <span class="cd-label">Leadership</span>
+          </a>
+        </li>
+        <li>
+          <a href="#section4" data-number="4">
+            <span class="cd-dot"></span>
+            <span class="cd-label">Contact</span>
+          </a>
+        </li>
+      </ul>
+    </nav>
+    <a class="cd-nav-trigger cd-img-replace">Open navigation<span></span></a>
+
+  <div class="bg-image"></div>
     <div>
       <div id="loading" class="loading-state" style="display: none;"></div>
       <div>
-        <section>
+        <section id="section1">
           <div class="floating-signup__wrap col-xs-12 col-md-6 col-xs-offset-0 col-md-offset-3 floaty-vertical--middle floaty-horizontal--center floaty-unfloat-at--xs">
             <div class="floating-signup rel">
               <div class="container-fluid rel">
@@ -93,5 +125,7 @@
       ga('create', 'UA-5224447-6', 'auto');
       ga('send', 'pageview');
     </script>
+    <script src="js/jquery-2.1.1.js"></script>
+    <script src="js/main.js"></script> <!-- Resource jQuery -->
   </body>
 </html>
